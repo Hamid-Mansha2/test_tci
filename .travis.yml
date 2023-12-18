@@ -6,11 +6,5 @@ language: php
 php:
   - 7.3.33
 
-before_install:
-  - composer self-update --2
-
-install:
-  - composer install
-
 script:
   - phpunit
